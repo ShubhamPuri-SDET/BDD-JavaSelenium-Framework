@@ -15,7 +15,7 @@ This project automates key user actions on eBay (like searching for products, vi
 * ✅ Java + Selenium WebDriver + Cucumber (BDD)
 * ✅ Page Object Model (POM) design
 * ✅ End-to-end eBay shopping flow automation
-* ✅ Hooks for setup/teardown
+* ✅ hooks for setup/teardown
 * ✅ Easy-to-write feature files with Gherkin syntax
 * ✅ Maven build tool
 * ✅ Configurable via properties file
