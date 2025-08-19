@@ -1,7 +1,5 @@
 package elements;
 
-import actions.CommonActions;
-import com.ebay.framework.utility.drivers.driversetup;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,13 +16,13 @@ public class HomePageElements {
     public WebElement minprice;
     @FindBy(xpath = "(//input[@id='s0-1-19-5[2]-@range-comp[]-@range-textbox[]_1-textbox'])[1]")
     public WebElement maxprice;
-    @FindBy(xpath = "//div[@class='adv-form__actions']//button[@type='submit'][normalize-space()='Search']")
+    @FindBy(xpath = "//span[@class='gh-search-button__label']")
     public WebElement searchbutton;
     @FindBy(xpath = "//a[@class='gh-logo']//*[name()='svg']")
     public WebElement ebayLogo;
-    @FindBy(xpath = "//input[contains(@title,\\\"Search\\\")]")
+    @FindBy(xpath = "//input[@id='gh-ac']")
     public WebElement searchbox;
-    @FindBy(xpath = "//button[contains(@class,\\\"gh-search-button btn btn--primary\\\")]")
+    @FindBy(xpath = "//button[contains(@class,'gh-search-button btn btn--primary')]")
     public WebElement search;
     private final WebDriver driver;
 
